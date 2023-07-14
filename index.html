@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>TODO App</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./src/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="app">
+      <h1>Список задач на</h1>
+      <h2 id="real_time"></h2>
+      <div class="wrapper">
+        <canvas
+          id="canvas"
+          width="200"
+          height="200"
+          style="background-color: #333;"
+        ></canvas>
+      </div>
+      <div class="container">
+        <div class="input-block">
+          <input type="text" id="text" placeholder="Введите название" />
+          <button>Добавить</button>
+        </div>
+        <div class="output-block">
+          <ul class="output__list"></ul>
+        </div>
+      </div>
+    </div>
+    <script src="src/index.js"></script>
+  </body>
+</html>

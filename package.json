@@ -1,0 +1,21 @@
+{
+  "name": "task-manager",
+  "version": "1.0.0",
+  "description": "Task manager app that is similar to genuine TODO with clock and which allows you to edit and complete current tasks",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "dependencies": {
+    "parcel-bundler": "^1.6.1"
+  },
+  "devDependencies": {
+    "@babel/core": "7.2.0",
+    "typescript": "4.4.4"
+  },
+  "resolutions": {
+    "@babel/preset-env": "7.13.8"
+  },
+  "keywords": []
+}
